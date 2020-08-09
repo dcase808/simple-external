@@ -43,9 +43,9 @@ DWORD findPlayer();
 int main()
 {
 	init();
-	LocalPlayer::setLocalPlayer();
 	while (!GetAsyncKeyState(VK_F9))
 	{
+		LocalPlayer::setLocalPlayer();
 		hopsa();
 		whs();
 		trig();
