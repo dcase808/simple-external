@@ -156,7 +156,7 @@ void init()
 {
 	if (attatchProc(XOR("csgo.exe")))
 	{
-		baseAddress = getModule(XOR("client_panorama.dll"));
+		baseAddress = getModule(XOR("client.dll"));
 		engineAddress = getModule(XOR("engine.dll"));
 
 		LocalPlayer::setLocalPlayer();
